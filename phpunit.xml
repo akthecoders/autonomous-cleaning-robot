@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit 
+    colors="true"
+    verbose="true"
+    bootstrap="vendor/autoload.php"
+>
+    <testsuites>
+        <testsuite name="Robot">
+            <directory>src/entities/Robot/tests</directory>
+        </testsuite>
+        <testsuite name="Floor">
+            <directory>src/entities/Floor/tests</directory>
+        </testsuite>
+        <testsuite name="Robot">
+            <directory>src/entities/Apartment/tests</directory>
+        </testsuite>
+        <testsuite name="Battery">
+            <directory>src/entities/Battery/tests</directory>
+        </testsuite>
+        <testsuite name="Charger">
+            <directory>src/entities/Charger/tests</directory>
+        </testsuite>
+        <testsuite name="Services">
+            <directory>src/services/tests</directory>
+        </testsuite>
+        
+    </testsuites>
+</phpunit>
